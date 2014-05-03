@@ -5,18 +5,23 @@
               android:layout_height="match_parent"
               android:weightSum="1">
 
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ryu"
+    <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
             android:id="@+id/RyuBtn"
-            android:gravity="center"/>
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ken"
+            android:gravity="center"
+
+
+            android:background="@drawable/ryu"/>
+    <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
             android:id="@+id/KenBtn"
             android:gravity="center"
+            android:longClickable="false"
+            android:background="@drawable/ryu" android:baselineAlignBottom="false"
             />
     <Button
             android:layout_width="match_parent"

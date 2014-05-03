@@ -4,11 +4,6 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, Everett"
-            />
     <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -17,12 +12,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ryu"
-            android:id="@+id/button" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/RyuBtn" android:layout_gravity="center_horizontal" android:onClick="onRyuBtnClick"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ken"
-            android:id="@+id/button2" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/KenBtn" android:layout_gravity="center_horizontal" android:onClick="onRyuBtnClick"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

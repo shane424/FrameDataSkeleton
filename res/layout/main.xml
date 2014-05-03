@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-    </TableRow>
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:weightSum="1">
+
     <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="246dp"
             android:text="Ryu"
-            android:id="@+id/RyuBtn" android:layout_gravity="center_horizontal" android:onClick="onRyuBtnClick"/>
+            android:id="@+id/RyuBtn" android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
     <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="174dp"
+            android:layout_height="249dp"
             android:text="Ken"
-            android:id="@+id/KenBtn" android:layout_gravity="center_horizontal" android:onClick="onRyuBtnClick"/>
+            android:id="@+id/KenBtn"
+            android:gravity="center"
+            />
     <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:text="Zangief"
-            android:id="@+id/button3" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/ZangiefBtn"/>
 </LinearLayout>
 

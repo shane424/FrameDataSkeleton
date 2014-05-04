@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MyActivity extends Activity {
 
@@ -19,7 +19,8 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        Button ryuBtn = (Button)findViewById(R.id.RyuBtn);
+        ImageButton ryuBtn = (ImageButton)findViewById(R.id.RyuBtn);
+
 
         ryuBtn.setOnClickListener(new OnClickListener() {
 

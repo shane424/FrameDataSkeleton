@@ -1,32 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               android:weightSum="1">
 
-    <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/RyuBtn"
+                android:gravity="center"
+                android:background="@drawable/ryu"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/KenBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ken"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ZangiefBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/zangief" android:adjustViewBounds="false"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/AbelBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/abel"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/AdonBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/adon"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/AkumaBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/akuma"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/BalrogBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/balrog"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/BlankaBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/blanka"/>
+    </TableRow>
 
-            android:id="@+id/RyuBtn"
-            android:gravity="center"
-
-
-            android:background="@drawable/ryu"/>
-    <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-
-            android:id="@+id/KenBtn"
-            android:gravity="center"
-            android:longClickable="false"
-            android:background="@drawable/ryu" android:baselineAlignBottom="false"
-            />
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Zangief"
-            android:id="@+id/ZangiefBtn"/>
-</LinearLayout>
+</TableLayout>
 

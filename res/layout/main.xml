@@ -14,11 +14,6 @@
                 android:id="@+id/RyuBtn"
                 android:gravity="center"
                 android:background="@drawable/ryu"/>
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-        </LinearLayout>
         <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -72,26 +67,278 @@
                 android:gravity="center"
                 android:longClickable="false"
                 android:background="@drawable/blanka"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/CrimsonViperBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/crimsonviper"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/CammyBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/cammy"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ChunLiBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/chunli"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/CodyBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/DanBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/DeeJayBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
     </TableRow>
     <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/DhalsimBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/DudleyBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/EHondaBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ElFuerteBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/EvilRyuBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/FeiLongBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/GenBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
     </TableRow>
     <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/GoukenBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/GuileBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/GuyBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/HakanBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/IbukiBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/JuriBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/SakuraBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
     </TableRow>
     <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/MBisonBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/MakotoBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/OniBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/RoseBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/RufusBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/SagatBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/SethBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
     </TableRow>
     <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/THawkBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/VegaBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/YangBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/YunBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/DecapreBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ElenaBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/HugoBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
     </TableRow>
     <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/PoisonBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/RolentoBtn"
+                android:gravity="center"
+                android:longClickable="false"
+                android:background="@drawable/ryu"/>
     </TableRow>
     <TableRow
             android:layout_width="fill_parent"

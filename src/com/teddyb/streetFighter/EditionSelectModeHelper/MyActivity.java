@@ -19,13 +19,13 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        ImageButton ryuBtn = (ImageButton)findViewById(R.id.RyuBtn);
+        ImageButton BeowulfBtn = (ImageButton)findViewById(R.id.BeowulfBtn);
 
 
-        ryuBtn.setOnClickListener(new OnClickListener() {
+        BeowulfBtn.setOnClickListener(new OnClickListener() {
 
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Ryu.class);
+                Intent intent = new Intent(getApplicationContext(), Beowulf.class);
                 startActivity(intent);
 
 

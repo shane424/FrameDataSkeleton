@@ -2,73 +2,178 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true">
 
-    <TableLayout
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-        <TableRow
-                android:layout_width="120dp"
-                android:layout_height="150dp">
-            <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="150dp"
-                    android:id="@+id/BeowulfBtn" android:background="@drawable/beowulf"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
-                         android:id="@+id/BigbandBtn" android:background="@drawable/bigband"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
-                         android:id="@+id/CerebellaBtn" android:background="@drawable/cerebella"/>
-        </TableRow>
-        <TableRow
-                android:layout_width="120dp"
-                android:layout_height="150dp">
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
-                         android:id="@+id/DoublegirlBtn" android:background="@drawable/doublegirl"/>
-            <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="150dp"
-                    android:id="@+id/ElizaBtn" android:background="@drawable/eliza"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
-                         android:id="@+id/FiliaBtn" android:background="@drawable/filia"/>
-        </TableRow>
-        <TableRow
-                android:layout_width="120dp"
-                android:layout_height="150dp">
-            <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="150dp"
-                    android:id="@+id/FukuaBtn" android:background="@drawable/fukua"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
-                         android:id="@+id/MarieBtn" android:background="@drawable/marie"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
-                         android:id="@+id/MsfortuneBtn" android:background="@drawable/msfortune"/>
-        </TableRow>
-        <TableRow
+            android:layout_height="fill_parent"
+            android:baselineAligned="false">
+        <ImageView
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:id="@+id/BeowulfBtn" android:layout_gravity="top" android:background="@drawable/greybar"
+                android:src="@drawable/beowulf" android:paddingLeft="-260dp" android:cropToPadding="false"
+                android:clickable="true"
+                android:baselineAlignBottom="true" android:adjustViewBounds="true" android:layout_marginLeft="-20dp"/>
+        <TextView
+                android:layout_height="match_parent"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/PainwheelBtn"
-                         android:background="@drawable/painwheel"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/ParasoulBtn"
-                         android:background="@drawable/parasoul"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/PeacockBtn"
-                         android:background="@drawable/peacock"/>
-        </TableRow>
-        <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-            <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="150dp"
-                    android:background="@drawable/robofortune" android:id="@+id/RobofortuneBtn"/>
-            <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="150dp"
-                    android:id="@+id/SquiglyBtn" android:focusableInTouchMode="false"
-                    android:background="@drawable/squigly"/>
-            <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="150dp"
-                    android:id="@+id/ValentineBtn" android:background="@drawable/valentine"/>
-        </TableRow>
-    </TableLayout>
+                android:id="@+id/BeowulfBtn2"
+                android:text="Beowulf"
+                android:textColor="#FFFFFF"
+                android:textSize="45dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="0dp"
+                android:layout_marginTop="-85dp" android:layout_marginLeft="100dp" android:layout_marginRight="0dp"
+                android:autoText="false" android:capitalize="none" android:clickable="false"></TextView>
+
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/BigbandBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/bigband"
+                   android:paddingLeft="-260dp" android:cropToPadding="false"
+                   android:clickable="true" android:layout_gravity="top" android:layout_marginTop="20dp"
+                   android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/BigbandBtn2"
+                  android:text="BigBand" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp"
+                  android:paddingTop="0dp" android:layout_marginTop="-85dp" android:layout_marginLeft="100dp"
+                  android:layout_marginRight="0dp" android:autoText="false" android:capitalize="none"
+                ></TextView>
+        
+        <ImageView android:layout_width="400dp" android:layout_height="100dp"
+                   android:layout_gravity="top" android:background="@drawable/greybar" android:src="@drawable/cerebella"
+                   android:paddingLeft="-260dp" android:cropToPadding="false" android:clickable="true"
+                   android:baselineAlignBottom="true" android:adjustViewBounds="true" android:id="@+id/CerebellaBtn"
+                   android:layout_marginTop="20dp" android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/CerebellaBtn2"
+                  android:text="Cerebella" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none" android:clickable="false"
+                />
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/DoublegirlBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/doublegirl" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent"
+                  android:id="@+id/DoubleGirlBtn2" android:text="Double" android:textColor="#FFFFFF"
+                  android:textSize="45dp" android:paddingLeft="10dp" android:paddingTop="0dp"
+                  android:layout_marginTop="-85dp" android:layout_marginLeft="100dp" android:layout_marginRight="0dp"
+                  android:autoText="false" android:capitalize="none" android:clickable="false"
+                  android:typeface="normal"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/ElizaBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/eliza" android:paddingLeft="-250dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent"
+                  android:id="@+id/ElizaBtn2" android:text="Eliza" android:textColor="#FFFFFF"
+                  android:textSize="45dp" android:paddingLeft="10dp" android:paddingTop="0dp"
+                  android:layout_marginTop="-85dp" android:layout_marginLeft="100dp" android:layout_marginRight="0dp"
+                  android:autoText="false" android:capitalize="none" android:clickable="false"
+                  android:typeface="normal"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/FiliaBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/filia" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/FiliaBtn2"
+                  android:text="Filia" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/FukuaBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/fukua" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/FukuaBtn2"
+                  android:text="Fukua" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/MarieBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/marie" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/MarieBtn2"
+                  android:text="Marie" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/MsfortuneBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/msfortune" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/MsfortuneBtn2"
+                  android:text="Ms. Fortune" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none" android:singleLine="true"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/PainwheelBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/painwheel" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/PainwheelBtn2"
+                  android:text="Painwheel" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/ParasoulBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/parasoul" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/ParasoulBtn2"
+                  android:text="Parasoul" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/PeacockBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/peacock" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/PeacockBtn2"
+                  android:text="Peacock" android:textColor="#FFFFFF" android:textSize="45dp"
+                  android:paddingLeft="10dp" android:paddingTop="0dp" android:layout_marginTop="-85dp"
+                  android:layout_marginLeft="100dp" android:layout_marginRight="0dp" android:autoText="false"
+                  android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/RobofortuneBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/robofortune" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/RobofortuneBtn2"
+                  android:text="Robo Fortune" android:textColor="#FFFFFF" android:textSize="40dp" android:paddingLeft="10dp"
+                  android:paddingTop="0dp" android:layout_marginTop="-85dp" android:layout_marginLeft="100dp"
+                  android:layout_marginRight="0dp" android:autoText="false" android:capitalize="none"
+                  android:singleLine="true"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/SquiglyBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/squigly" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/SquiglyBtn2"
+                  android:text="Squigly" android:textColor="#FFFFFF" android:textSize="45dp" android:paddingLeft="10dp"
+                  android:paddingTop="0dp" android:layout_marginTop="-85dp" android:layout_marginLeft="100dp"
+                  android:layout_marginRight="0dp" android:autoText="false" android:capitalize="none"/>
+        <ImageView android:layout_width="400dp" android:layout_height="100dp" android:id="@+id/ValentineBtn"
+                   android:background="@drawable/greybar" android:src="@drawable/valentine" android:paddingLeft="-260dp"
+                   android:cropToPadding="false" android:clickable="true" android:layout_gravity="top"
+                   android:layout_marginTop="20dp" android:adjustViewBounds="true" android:baselineAlignBottom="true"
+                   android:layout_marginLeft="-20dp"/>
+        <TextView android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/ValentineBtn2"
+                  android:text="Valentine" android:textColor="#FFFFFF" android:textSize="40dp" android:paddingLeft="10dp"
+                  android:paddingTop="0dp" android:layout_marginTop="-85dp" android:layout_marginLeft="100dp"
+                  android:layout_marginRight="0dp" android:autoText="false"/>
+
+
+    </LinearLayout>
 </ScrollView>

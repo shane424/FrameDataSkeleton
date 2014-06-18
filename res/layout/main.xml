@@ -1,106 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView">
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
-                 android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1"
-                 android:id="@+id/tableLayout">
-        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/BeowulfBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/beowulf"
-                         android:layout_column="0" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/BigBandBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/bigband"
-                         android:layout_column="1" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/CerebellaBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/cerebella"
-                         android:layout_column="2" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableRow
+                android:layout_width="120dp"
+                android:layout_height="150dp">
+            <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/BeowulfBtn" android:background="@drawable/beowulf"/>
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
+                         android:id="@+id/BigbandBtn" android:background="@drawable/bigband"/>
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
+                         android:id="@+id/CerebellaBtn" android:background="@drawable/cerebella"/>
         </TableRow>
-        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow">
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/DoubleBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/doublegirl"
-                         android:layout_column="0" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/ElizaBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/eliza"
-                         android:layout_column="1" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/FiliaBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/filia"
-                         android:layout_column="2" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
+        <TableRow
+                android:layout_width="120dp"
+                android:layout_height="150dp">
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
+                         android:id="@+id/DoublegirlBtn" android:background="@drawable/doublegirl"/>
+            <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/ElizaBtn" android:background="@drawable/eliza"/>
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
+                         android:id="@+id/FiliaBtn" android:background="@drawable/filia"/>
         </TableRow>
-        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent"
-                  android:id="@+id/tableRow2">
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/FukuaBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/fukua"
-                         android:layout_column="0" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/MsFortuneBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/msfortune" android:layout_column="1" android:maxHeight="10dp"
-                         android:maxWidth="10dp" android:focusable="true" android:clickable="true"
-                         android:baselineAlignBottom="true" android:focusableInTouchMode="false"
-                         android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/MarieBtn"
-                         android:gravity="center" android:longClickable="false" android:background="@drawable/marie"
-                         android:layout_column="2" android:maxHeight="10dp" android:maxWidth="10dp"
-                         android:focusable="true" android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
+        <TableRow
+                android:layout_width="120dp"
+                android:layout_height="150dp">
+            <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/FukuaBtn" android:background="@drawable/fukua"/>
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
+                         android:id="@+id/MarieBtn" android:background="@drawable/marie"/>
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp"
+                         android:id="@+id/MsfortuneBtn" android:background="@drawable/msfortune"/>
         </TableRow>
-        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent"
-                  android:id="@+id/tableRow3">
-            <ImageButton android:layout_width="125dp" android:layout_height="150dp" android:id="@+id/PainwheelBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/painwheel" android:layout_column="0" android:maxHeight="10dp"
-                         android:maxWidth="10dp" android:focusable="true" android:clickable="true"
-                         android:baselineAlignBottom="true" android:focusableInTouchMode="false"
-                         android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/PeacockBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/peacock" android:layout_column="1" android:maxHeight="10dp"
-                         android:maxWidth="10dp" android:focusable="true" android:clickable="true"
-                         android:baselineAlignBottom="true" android:focusableInTouchMode="false"
-                         android:cropToPadding="true"/>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/PainwheelBtn"
+                         android:background="@drawable/painwheel"/>
             <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/ParasoulBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/parasoul" android:layout_column="2" android:maxHeight="10dp"
-                         android:maxWidth="10dp" android:focusable="true" android:clickable="true"
-                         android:baselineAlignBottom="true" android:focusableInTouchMode="false"
-                         android:cropToPadding="true"/>
+                         android:background="@drawable/parasoul"/>
+            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/PeacockBtn"
+                         android:background="@drawable/peacock"/>
         </TableRow>
-        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent"
-                  android:id="@+id/tableRow4">
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/RoboFortuneBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/robofortune" android:layout_column="0"
-                         android:maxHeight="10dp" android:maxWidth="10dp" android:focusable="true"
-                         android:clickable="true" android:baselineAlignBottom="true"
-                         android:focusableInTouchMode="false" android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/ValentineBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/valentine" android:layout_column="1" android:maxHeight="10dp"
-                         android:maxWidth="10dp" android:focusable="true" android:clickable="true"
-                         android:baselineAlignBottom="true" android:focusableInTouchMode="false"
-                         android:cropToPadding="true"/>
-            <ImageButton android:layout_width="120dp" android:layout_height="150dp" android:id="@+id/SquiglyBtn"
-                         android:gravity="center" android:longClickable="false"
-                         android:background="@drawable/squigly" android:layout_column="2" android:maxHeight="10dp"
-                         android:maxWidth="10dp" android:focusable="true" android:clickable="true"
-                         android:baselineAlignBottom="true" android:focusableInTouchMode="false"
-                         android:cropToPadding="true"/>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/robofortune" android:id="@+id/RobofortuneBtn"/>
+            <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/SquiglyBtn" android:focusableInTouchMode="false"
+                    android:background="@drawable/squigly"/>
+            <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/ValentineBtn" android:background="@drawable/valentine"/>
         </TableRow>
     </TableLayout>
 </ScrollView>

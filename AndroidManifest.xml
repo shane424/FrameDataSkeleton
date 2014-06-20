@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.teddyb.streetFighter.EditionSelectModeHelper"
+          package="com.teddyb.FrameDataSkeleton"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="16"/>
     <application android:label="Skullgirls" android:icon="@drawable/ic_launcher">
-        <activity android:name="MyActivity"
+        <activity android:name="com.teddyb.FrameDataSkeleton.MyActivity"
                   android:label="SkullGirls">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="Beowulf"
+        <activity android:name="com.teddyb.FrameDataSkeleton.Beowulf"
                   android:label="Beowulf">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

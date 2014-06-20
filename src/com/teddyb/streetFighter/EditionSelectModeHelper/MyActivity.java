@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MyActivity extends Activity {
 
@@ -19,10 +21,20 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        ImageButton BeowulfBtn = (ImageButton)findViewById(R.id.BeowulfBtn);
+        ImageView BeowulfBtn = (ImageView)findViewById(R.id.BeowulfBtn);
+        TextView BeowulfBtn2 = (TextView)findViewById(R.id.BeowulfBtn2);
 
 
         BeowulfBtn.setOnClickListener(new OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Beowulf.class);
+                startActivity(intent);
+
+
+            }
+        });
+        BeowulfBtn2.setOnClickListener(new OnClickListener() {
 
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Beowulf.class);

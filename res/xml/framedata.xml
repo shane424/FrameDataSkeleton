@@ -1,7 +1,35 @@
-<character><filia>
-	<moves>
-	</moves>
-</filia>
-<fukua>
-</fukua>
+<character>
+    <bigband>
+        <move>Big Band Light Punch</move>
+        <damage>300</damage>
+        <startup>6</startup>
+        <active>2</active>
+        <recovery>16</recovery>
+        <frameAdvantage>
+            <onhit>3</onhit>
+            <onblock>2</onblock>
+        </frameAdvantage>
+    </bigband>
+    <cerebella>
+        <move>Cerebella Light Punch</move>
+        <damage>400</damage>
+        <startup>8</startup>
+        <active>4</active>
+        <recovery>20</recovery>
+        <frameAdvantage>
+            <onhit>6</onhit>
+            <onblock>4</onblock>
+        </frameAdvantage>
+    </cerebella>
+    <!-- until the above is tested with xStream serializer this xml file will be incomplete.  Assume all data above is inaccurate
+    <double></double>
+    <eliza></eliza>
+    <filia></filia>
+    <fukua></fukua>
+    <painwheel></painwheel>
+    <parasoul></parasoul>
+    <peacock></peacock>
+    <squigly></squigly>
+    <valentine></valentine>
+    -->
 </character>
